@@ -15,3 +15,9 @@ variable "storage_account_name" {
   type        = string
   default     = "stalpenlogiklabtf"
 }
+
+variable "github_repository" {
+  description = "GitHub repository allowed to use the identities."
+  type        = string
+  default     = "vidal-renao/alpenlogik-infra"
+}
